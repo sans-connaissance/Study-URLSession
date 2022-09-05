@@ -11,6 +11,11 @@
 		41DB6E5528C62B2300D5915A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DB6E5428C62B2300D5915A /* ContentView.swift */; };
 		41DB6E5728C62B2500D5915A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41DB6E5628C62B2500D5915A /* Assets.xcassets */; };
 		41DB6E5A28C62B2500D5915A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41DB6E5928C62B2500D5915A /* Preview Assets.xcassets */; };
+		41DB6E6228C62B4300D5915A /* MediaResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DB6E6128C62B4300D5915A /* MediaResponse.swift */; };
+		41DB6E6528C62B9600D5915A /* SongDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DB6E6428C62B9600D5915A /* SongDetailView.swift */; };
+		41DB6E6728C62BBC00D5915A /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DB6E6628C62BBC00D5915A /* AudioPlayer.swift */; };
+		41DB6E6928C62C6B00D5915A /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DB6E6828C62C6B00D5915A /* PreviewData.swift */; };
+		41DB6E6B28C62EC300D5915A /* SongDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DB6E6A28C62EC200D5915A /* SongDownload.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		41DB6E5428C62B2300D5915A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		41DB6E5628C62B2500D5915A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41DB6E5928C62B2500D5915A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41DB6E6128C62B4300D5915A /* MediaResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaResponse.swift; sourceTree = "<group>"; };
+		41DB6E6428C62B9600D5915A /* SongDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDetailView.swift; sourceTree = "<group>"; };
+		41DB6E6628C62BBC00D5915A /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		41DB6E6828C62C6B00D5915A /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		41DB6E6A28C62EC200D5915A /* SongDownload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDownload.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,8 @@
 		41DB6E5128C62B2300D5915A /* Study-URLSession */ = {
 			isa = PBXGroup;
 			children = (
+				41DB6E6328C62B6C00D5915A /* Views */,
+				41DB6E6028C62B3000D5915A /* Model */,
 				41DB6E5228C62B2300D5915A /* Study_URLSessionApp.swift */,
 				41DB6E5428C62B2300D5915A /* ContentView.swift */,
 				41DB6E5628C62B2500D5915A /* Assets.xcassets */,
@@ -65,6 +77,25 @@
 				41DB6E5928C62B2500D5915A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41DB6E6028C62B3000D5915A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				41DB6E6128C62B4300D5915A /* MediaResponse.swift */,
+				41DB6E6628C62BBC00D5915A /* AudioPlayer.swift */,
+				41DB6E6828C62C6B00D5915A /* PreviewData.swift */,
+				41DB6E6A28C62EC200D5915A /* SongDownload.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		41DB6E6328C62B6C00D5915A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				41DB6E6428C62B9600D5915A /* SongDetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +168,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41DB6E6528C62B9600D5915A /* SongDetailView.swift in Sources */,
+				41DB6E6B28C62EC300D5915A /* SongDownload.swift in Sources */,
 				41DB6E5528C62B2300D5915A /* ContentView.swift in Sources */,
+				41DB6E6928C62C6B00D5915A /* PreviewData.swift in Sources */,
+				41DB6E6728C62BBC00D5915A /* AudioPlayer.swift in Sources */,
 				41DB6E5328C62B2300D5915A /* Study_URLSessionApp.swift in Sources */,
+				41DB6E6228C62B4300D5915A /* MediaResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
